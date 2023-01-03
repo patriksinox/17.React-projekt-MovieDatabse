@@ -8,7 +8,7 @@ const ziadnaFotka =
   "https://upload.wikimedia.org/wikipedia/commons/f/fc/No_picture_available.png";
 
 const APIkluc = process.env.REACT_APP_API_KEY;
-const url = `http://www.omdbapi.com/?apikey=${APIkluc}&s=`;
+const url = `https://www.omdbapi.com/?apikey=${APIkluc}&s=`;
 
 function Filmy() {
   const [hladanie, setHladanie] = useState("Game");
